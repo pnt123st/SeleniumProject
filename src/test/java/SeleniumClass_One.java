@@ -9,6 +9,7 @@ public class SeleniumClass_One {
     public void exampleTest(){
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver = new ChromeDriver();
+        driver.get("https://www.piit.us");
     }
 
 
